@@ -1,0 +1,5 @@
+Repositorio: Es como una carpeta o espacio de almacenamiento virtual donde se guardan de forma organizada todos los archivos, códigos y carpetas de un proyecto de programación. Su función principal es registrar todo el historial de versiones del proyecto.
+
+Commit: Es como una fotografía instantánea o un punto de guardado que toma Git del estado actual de tus archivos en un momento específico. Cada commit se guarda con un mensaje explicativo y sirve para registrar un avance importante en el código.
+
+Push: Es el comando o acción que se utiliza para enviar y subir todos los commits (puntos de guardado) locales que tienes en tu computadora hacia un repositorio remoto en internet, como por ejemplo la plataforma GitHub.
