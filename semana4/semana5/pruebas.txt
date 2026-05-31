@@ -1,0 +1,5 @@
+Al probar la ruta http://localhost:3000 el navegador muestra el texto 'Servidor activo', que es la respuesta por defecto de la ruta raíz.
+
+Al probar la ruta http://localhost:3000/saludo el servidor responde con el mensaje 'Hola comunidad', demostrando que puede manejar diferentes endpoints en el mismo puerto.
+
+Al probar la ruta http://localhost:3000/mensaje/juan el navegador muestra 'Hola juan'. Esto pasa porque el servidor está programado para recibir un parámetro dinámico en la URL (:nombre) y usarlo directamente en el saludo que le devuelve al usuario.

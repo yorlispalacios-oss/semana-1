@@ -1,0 +1,5 @@
+¿Qué hace esta ruta?
+Esta ruta está configurada bajo el método HTTP POST en la dirección '/reporte'. Su función es recibir datos que el usuario envía ocultos en el cuerpo de la solicitud (req.body), específicamente una variable llamada 'mensaje'. Al procesarla, el servidor responde con un objeto en formato JSON confirmando que el estado es 'Reporte recibido' y le devuelve el mismo mensaje para verificarlo.
+
+¿Para qué podría servir en una aplicación comunitaria?
+En una aplicación para la comunidad, esta ruta sería de gran utilidad para recolectar reportes ciudadanos en tiempo real. Por ejemplo, los vecinos podrían enviar alertas sobre daños en las vías públicas, cortes de energía, problemas con el suministro de agua o reportar emergencias de seguridad. Al usar el método POST, la información viaja de forma segura hacia el servidor para ser almacenada en una base de datos y gestionada por los líderes o las autoridades locales.
